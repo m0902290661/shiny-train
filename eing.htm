@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>密碼登入</title>
+</head>
+<body>
+  <header>
+    <h1>密碼登入</h1>
+  </header>
+
+  <main>
+    <!-- 登入表單 -->
+    <form id="loginForm">
+      <label for="password">密碼：</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="button" onclick="submitForm()">登入</button>
+    </form>
+
+    <p id="loginResult"></p>
+  </main>
+
+  <!-- 可以添加你的 JavaScript 代碼 -->
+  <script>
+    function submitForm() {
+      // 獲取密碼
+      var password = document.getElementById("password").value;
+
+      // 驗證密碼
+      if (password === "221112-1") {
+        document.getElementById("loginResult").innerHTML = "登入成功";
+        location.href="enter.htm"
+      } else {
+        document.getElementById("loginResult").innerHTML = "登入失敗，請檢查密碼";
+      }
+    }
+  </script>
+</body>
+</html>
