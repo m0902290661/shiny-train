@@ -1,0 +1,41 @@
+.d0{
+    text-align: center;
+}
+.do h1{
+    font-size: 24px;
+}
+.d1{
+    text-align: center;
+}
+button{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.d2 h2{
+    font-size: 18px;
+}
+.kp{
+    background-color: rgb(163, 162, 160);
+    text-align: center;
+}
+.kp p{
+    color: white;
+}
+.kp a{
+    color: white;
+}
+.f3{
+    text-align: center;
+}
+.f3 h2{
+    font-size: 35px;
+    border: 2px solid black;
+    padding: 2px 2px;
+    text-decoration: none;
+}
