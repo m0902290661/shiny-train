@@ -9,6 +9,7 @@
 }
 button{
     background-color: white;
+    border: 1px solid black;
 }
 a{
     text-decoration: none;
@@ -32,10 +33,16 @@ a:hover{
 }
 .f3{
     text-align: center;
+    border: 2px solid black;
+    padding: 5dvh 2px;
+    text-decoration: none;
 }
 .f3 h2{
     font-size: 35px;
-    border: 2px solid black;
-    padding: 2px 2px;
+}
+.f3 a{
+    border: 1px solid black;
     text-decoration: none;
+    color: black;
+    padding: 2px;
 }
